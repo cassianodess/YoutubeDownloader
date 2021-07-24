@@ -30,7 +30,7 @@ url.focus()
 
 # Escolha do formato (Vídeo ou Áudio)
 lblFormat = Label(app, text="Formato: ", font="Arial")
-lblFormat.pack(fill=X, expand=TRUE)
+lblFormat.pack(fill=X, expand=True)
 lblFormat.place(
     x=10, y=120, width=150, height=50)
 
@@ -39,7 +39,7 @@ varFormato = StringVar()
 varFormato.set(listaFormato[0])
 
 opMenu = OptionMenu(app, varFormato, *listaFormato)
-opMenu.pack(fill=X, expand=TRUE)
+opMenu.pack(fill=X, expand=True)
 opMenu.place(x=170, y=120, width=150,  height=50)
 
 
